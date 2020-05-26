@@ -13,6 +13,16 @@ function tomcat_installation()
              firewall-cmd --reload
 
 }
-   java_installation
-  
-   tomcat_installation
+function java_installation()
+{
+          yum install java-1.8.0
+          if [ $? = 0 ]
+          then
+             echo " Java installed successfully"
+          else
+             echo " Unable to install java"
+          fi
+
+}
+java_installation
+tomcat_installation
