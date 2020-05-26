@@ -6,4 +6,4 @@
   echo $(echo $(source ~/.bashrc))
   echo $(firewall-cmd --permanent --zone=public --add-port=8080/tcp)
   echo $(firewall-cmd --reload)
-  echo $(/opt/apache-tomcat-9.0.35/bin/./startup.sh
+  echo $(/opt/apache-tomcat-9.0.35/bin/./startup.sh)
