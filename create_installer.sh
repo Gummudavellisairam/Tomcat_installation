@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir $HOME/tomcat_practice5
+mkdir tomcat_practice5
 cp Tomcat_setup1.sh tomcat_practice5
 cp Java_install.sh tomcat_practice5
 cp Tomcat_install.sh tomcat_practice5
